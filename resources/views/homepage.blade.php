@@ -20,9 +20,9 @@
     <main >
         <div class="container">
             <h1>lista film</h1>
-            <div class="row">
+            <div class="row g-2">
                 @foreach ($movies as $movie)       
-                <div class="col-4">
+                <div class="col-4 bg-secondary fs-3">
                     {{$movie->title}}
                     {{$movie->vote}}
                 </div>
